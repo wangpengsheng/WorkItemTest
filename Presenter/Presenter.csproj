@@ -7,6 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="NModbus" Version="3.0.78" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AsynchronousExecutor\AsynchronousExecutor.csproj" />
     <ProjectReference Include="..\Common\Common.csproj" />
   </ItemGroup>
 
