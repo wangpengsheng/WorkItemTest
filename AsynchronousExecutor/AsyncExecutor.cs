@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ﻿namespace AsynchronousExecutor;
 
 /// <summary>
@@ -94,7 +93,7 @@ public class Executor<T>
     {
         return _tasks.FirstOrDefault(task => task.GetType().Name == taskName)?.GetState() ?? ExecutionState.Exited;
     }
-=======
+    
 ﻿namespace AsynchronousExecutor
 {
     /// <summary>
@@ -230,5 +229,4 @@ public class Executor<T>
     }
 
 
->>>>>>> 887dfb4f68b3383f670c71f69d7d49fc17226f5d
 }
