@@ -1,6 +1,6 @@
 ﻿namespace Presenter;
 
-public class ThreadRunModel : WorkThreadBaseModel
+public class ThreadRunModel : WorkTaskBaseModel
 {
     public ThreadRunModel(string taskName) : base(taskName)
     {
